@@ -1,0 +1,57 @@
+,,,,,,,,,,,,,,,,,,,,,
+Bureau of Justice Statistics,,,,,,,,,,,,,,,,,,,,,
+"Tool Title: Arrest in the United States, 1980-2014",,,,,,,,,,,,,,,,,,,,,
+"Data source: FBI, Uniform Crime Reporting Program",,,,,,,,,,,,,,,,,,,,,
+"Authors: Howard N. Snyder, Ph.D.; Alexia D. Cooper, Ph.D.; and Joseph Mulako-Wangota, Ph.D.",,,,,,,,,,,,,,,,,,,,,
+Refer questions to: askbjs@usdoj.gov or (202) 307-0765,,,,,,,,,,,,,,,,,,,,,
+Date of version: Aug 2017,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+"Arrests by Age reported by MA00718, 2014",,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+Offense,Total all ages,Ages under 18,Ages 18 or over,Ages under 10,10-12,13-14,Ages under 15,15,16,17,18-20,21-24,25-29,30-34,35-39,40-44,45-49,50-54,55-59,60-64,Ages 65 or over
+All Offenses,3916,528,3388,0,22,135,157,107,119,145,351,587,668,526,396,331,231,159,93,24,22
+Murder and Non-Negligent Manslaughter,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+Forcible Rape,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~
+Robbery,58,19,39,0,0,5,5,1,6,7,7,10,7,7,2,4,2,0,0,0,0
+Aggravated Assault,196,15,181,0,1,4,5,3,0,7,13,34,23,35,19,17,11,17,9,1,2
+Burglary,127,30,97,0,1,9,10,8,2,10,17,20,27,9,7,7,5,3,2,0,0
+Larceny-Theft,141,19,122,0,1,4,5,4,4,6,10,22,17,19,14,13,10,12,4,0,1
+Motor Vehicle Theft,12,2,10,0,0,0,0,0,1,1,2,0,3,3,1,1,0,0,0,0,0
+Arson,5,2,3,0,1,1,2,0,0,0,1,2,0,0,0,0,0,0,0,0,0
+Other Assaults,653,110,543,0,3,33,36,23,23,28,60,88,97,81,66,58,45,23,18,4,3
+Forgery and Counterfeiting,9,0,9,0,0,0,0,0,0,0,2,1,1,1,0,3,1,0,0,0,0
+Fraud,5,0,5,0,0,0,0,0,0,0,1,1,0,1,0,1,0,1,0,0,0
+Embezzlement,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1
+"Stolen Property; Buying, Receiving, Possessing",53,13,40,0,0,2,2,0,3,8,12,10,8,6,0,2,1,0,1,0,0
+Vandalism,77,17,60,0,1,4,5,4,6,2,6,11,15,9,5,4,4,3,2,0,1
+"Weapons; Carrying, Possessing, etc.",66,16,50,0,0,2,2,1,7,6,20,14,8,4,3,1,0,0,0,0,0
+Prostitution and Commercialized Vice,54,1,53,0,0,0,0,1,0,0,0,5,6,9,12,8,3,5,1,2,2
+Sex Offense (except forcible rape and prostitution),~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~
+Drug Abuse Violations -Total,577,13,564,0,0,2,2,2,4,5,46,93,131,94,70,50,37,25,10,5,3
+Sale-Manufacturing-Total,278,5,273,0,0,0,0,1,1,3,21,49,61,49,30,28,13,15,4,2,1
+Possession-SubTotal,297,8,289,0,0,2,2,1,3,2,25,44,69,44,40,22,24,10,6,3,2
+Gambling,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1
+Offenses Against the Family and Children,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1
+Driving Under the Influence,58,0,58,0,0,0,0,0,0,0,4,8,9,12,2,5,6,4,4,2,2
+Liquor Laws,3,0,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0
+Drunkenness,8,0,8,0,0,0,0,0,0,0,1,0,0,1,1,3,1,0,1,0,0
+Disorderly Conduct,228,73,155,0,6,30,36,17,11,9,21,25,37,17,25,16,6,4,3,1,0
+Vagrancy,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1
+All Other Offenses (except traffic),1578,197,1381,0,8,38,46,43,52,56,128,242,277,217,169,138,98,60,37,8,7
+Suspicion,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1
+Curfew and Loitering Law Violations,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1,- 1
+Runaways,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Violent Crime Index,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~
+Property Crime Index,285,53,232,0,3,14,17,12,7,17,30,44,47,31,22,21,15,15,6,0,1
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+-------------------------,,,,,,,,,,,,,,,,,,,,,
+Note: Detail may not add to totals due to rounding,,,,,,,,,,,,,,,,,,,,,
+- = The FBI stopped reporting Runaways offense as of 2010.,,,,,,,,,,,,,,,,,,,,,
+"~ = Due to the use of different definitions of rape across reporting agencies, data on rape arrests after 2012 are not shown in the table or graph, or included in any crime totals (all offenses or violent crime index). Because of this, the totals presented in this tool are not comparable to prior years. For more information on the definition changes, see the FBI's New Rape Definition Frequently Asked Questions -1 = Agency did not report data",,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+"Recommended citation: Snyder, Howard N.; Cooper, Alexia D.; and Mulako-Wangota, Joseph. Bureau of Justice Statistics. (Insert table title). Generated using the Arrest Data Analysis Tool at www.bjs.gov. (Insert date). ",,,,,,,,,,,,,,,,,,,,,
