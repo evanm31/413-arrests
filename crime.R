@@ -1,14 +1,13 @@
 #EDA of crime data
 
 library(tidyverse)
-library(readxl)
-setwd("~/drugarrests/data")
+setwd("~/413-arrests/data")
 
-holyoke <- read.csv("holyoke_arrest.csv", skip = 11)
+holyoke <- read.csv("springfield_arrest.csv", skip = 11)
 colnames(holyoke) <- as.character(unlist(holyoke[1,]))
 holyoke <- holyoke[-1, ]
 holyoke <- holyoke[-(c(35:45)), ]
-holyoke <- holyoke %>% gather(Age, Count, 2:22)
+#holyoke <- holyoke %>% gather(Age, Count, 2:22)
 
 aggs <- c("Total all ages", "Ages 18 or over", "Ages under 18", "Ages under 15", "Ages under 10")
 holyoke_drug <- holyoke[19:21,]

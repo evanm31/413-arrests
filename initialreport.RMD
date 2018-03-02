@@ -1,0 +1,41 @@
+---
+title: "Drug Arrests Initial Analysis"
+author: "Evan Moore"
+date: "March 2, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, message = F, warning = F)
+setwd("~/413-arrests")
+source("arrest_script.R")
+```
+
+##Holyoke
+
+Initially, we can view bar plots of arrests in each age and race category, split by the type of offense (possession or sale/manufacturing). We can additionally calculate the total percentage of arrests for drug-related crimes in the data. 
+
+```{r}
+holyoke <- read_data_age("data/holyoke_arrest.csv")
+holyoke_drug <- create_drug_df(holyoke)
+plot_bar_age(holyoke_drug, "Holyoke")
+drug_total(holyoke)
+holyoke_race <- read_data_race("data/holyoke_arrest_race.csv")
+plot_bar_race(holyoke_race, "Holyoke")
+```
+
+##Springfield
+
+Similarly to before, let's do the same types of plots to compare and contrast drug-related arrests in Springfield to Holyoke. 
+```{r}
+springfield <- read_data_age("data/springfield_arrest.csv")
+springfield_drug <- create_drug_df(springfield)
+plot_bar_age(springfield_drug, "Springfield")
+drug_total(springfield)
+springfield_race <- read_data_race("data/springfield_arrest_race.csv")
+plot_bar_race(springfield_race, "Springfield")
+```
+
+##Conclusions
+
+A few things pop out at first glance - the race representation is quite unbalanced towards whites in both cases, while the age distributions are generally similar. However, Springfield exhibits noticable more arrests for sales/manufacturing than Holyoke, perhaps implying that much of the drug trafficking first occurs in Springfield, then is spread to surrounding cities. Holyoke also has a slightly higher percentage of crimes that were drug related, even though Springfield had a higher raw number. 

@@ -1,9 +1,10 @@
-#script to read in, clean., and visualize police data by age
-#data from bureau of justice statistics
-#Evan Moore March 2018
+#script to read in, clean, and visualize police data by age data from bureau of justice statistics
+#Evan Moore
+#March 2018
 
 library(dplyr)
 library(ggplot2)
+library(tidyr)
 
 read_data_age <- function(filepath) {
   data <- read.csv(filepath, skip = 11)
@@ -21,7 +22,6 @@ create_drug_df <- function(data) {
   return(data_drug)
 }
 
-#add year info and source for data
 plot_bar_age <- function(data, cityStr) {
   data %>% 
     dplyr::filter(aggregate == 0 & Offense != "Drug Abuse Violations -Total") %>%
@@ -29,7 +29,7 @@ plot_bar_age <- function(data, cityStr) {
     geom_bar(stat="identity") + 
     geom_line(group= 1, size = 1) + 
     facet_grid(Offense~.) + 
-    labs(title = paste0("Drug Arrest Rates for ", cityStr, ", MA by Age Group"))
+    labs(title = paste0("2014 Drug Arrest Rates for ", cityStr, ", MA by Age Group"), caption = "Data from the Bureau of Justice Statistics website")
 }
 
 chisq_drug_age <- function(data) {
@@ -37,7 +37,6 @@ chisq_drug_age <- function(data) {
   return(chisq.test(table))
 }
 
-#fix this function
 drug_total <- function(data) {
   data <- data %>% gather(Age, Count, 2:22)
   count_vals <- c("~","- 1", "-1")
@@ -45,7 +44,8 @@ drug_total <- function(data) {
     filter(!(Count %in% count_vals)) %>% 
     filter(Age == "Total all ages") %>% 
     mutate(Count = as.numeric(Count))
-  return(data_total[which(data_total == "Drug Abuse Violations -Total"),3] / data_total[1,3])
+  num <- data_total[which(data_total == "Drug Abuse Violations -Total"),3] / data_total[1,3]
+  return(paste0("The percentage of drug-related crimes is ", round(num*100, 2), "%. This represents ", data_total[which(data_total == "Drug Abuse Violations -Total"),3], " arrests for drugs out of ", data_total[1,3], " total arrests."))
 }
 
 read_data_race <- function(filepath) {
@@ -70,12 +70,11 @@ read_data_race <- function(filepath) {
   return(data)
 }
 
-#add year info and source for data 
 plot_bar_race <- function(data, cityStr) {
   data %>% 
     filter(Age == 1, !grepl("Total", Group), !grepl("Drug Abuse", Offense)) %>% 
     ggplot(aes(x = Group, y = Count)) + 
     geom_bar(stat="identity") + 
     facet_grid(Offense~.) + 
-    labs(title = paste0("Drug Arrest Rates for ", cityStr, ", MA by Race"))
+    labs(title = paste0("2014 Drug Arrest Rates for ", cityStr, ", MA by Race"), caption = "Data from the Bureau of Justice Statistics website")
 }
